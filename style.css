@@ -1,9 +1,96 @@
-th {
-  color: #04379e;
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+  img {
+    border: 1px solid purple;
+    height: 500px;
+    width: auto;
+  }
+}
+@media (max-width: 499px) {
+  img {
+    border: 1px solid purple;
+    height: 150px;
+    width: auto;
+  }
+}
+img {
+  float: right;
+}
+
+h1 {
+  font-family: "Merienda", cursive;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)), url("./images/h1-background.jpg");
+  color: white;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+a {
+  font-family: "Fira Sans", sans-serif;
+}
+
+a:hover {
+  font-size: 120%;
+}
+
+a::before {
+  color: #4302db;
+}
+
+a::after {
+  color: #2d0096;
+}
+
+div {
+  padding: 2px;
+}
+div h2 {
+  font-family: "Merienda", cursive;
+}
+div h4 {
+  font-family: "Merienda", cursive;
+  background-color: yellow;
+  width: 150px;
 }
 
 .bold {
   font-weight: bold;
+}
+
+.th {
+  color: #04379e;
+}
+
+.thr {
+  color: #022670;
+}
+
+.th, .thr {
+  font-weight: bold;
+}
+
+.table-rates .row .col-md-3 {
+  border: 1px solid black;
+}
+
+.about-me-bio p {
+  padding: 80px 5px 0px 5px;
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+}
+
+.alert-success p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+
+.alert-success p {
+  background-color: #E567B5;
+  color: #04379e;
 }
 
 /*# sourceMappingURL=style.css.map */

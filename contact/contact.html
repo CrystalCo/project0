@@ -2,21 +2,34 @@
 <html>
     <head>
         <title>Contact</title>
-        <link href="./contact.css" type="text/css"  rel="stylesheet">
+        <link href="../style.css" type="text/css"  rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merienda" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
       <h1>Questions? Contact me here!</h1>
-      <div class="menu-options">
-        <a href="../about/about.html">About</a>
-        <a href="./contact.html">Contact</a>
-        <a href="../portfolio/portfolio.html">Portfolio</a>
-        <a href="../rates/rates.html">Rates</a>
-        <a href="../index.html">Home</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="../about/about.html">About</a></li>
+          <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
+          <li><a class="dropdown-item" href="../portfolio/portfolio.html">Portfolio</a></li>
+          <li><a class="dropdown-item" href="../rates/rates.html">Rates</a></li>
+          <li><a class="dropdown-item" href="../index.html">Home</a></li>
+        </ul>
       </div>
+
+
       <div class="contact-info">
         <p><span class="bold">E-Mail:</span> <a href="mailto:crystal.contr@gmail.com">crystal.contr@gmail.com</a></p>
         <p><span class="bold">Phone:</span> +1 (224) 800-3321</p>
       </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <link type="text/css" rel="stylesheet" href="main_styles.css" />
     </body>
 </html>

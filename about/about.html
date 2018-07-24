@@ -2,24 +2,38 @@
 <html>
     <head>
         <title>About</title>
-        <link href="about.css" type="text/css"  rel="stylesheet">
+        <link href="../style.css" type="text/css"  rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merienda" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
       <h1>Welcome to Crystal Coding!</h1>
-      <div class="menu-options">
-        <a href="./about.html">About</a>
-        <a href="../contact/contact.html">Contact</a>
-        <a href="../portfolio/portfolio.html">Portfolio</a>
-        <a href="../rates/rates.html">Rates</a>
-        <a href="../index.html">Home</a>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="./about.html">About</a></li>
+          <li><a class="dropdown-item" href="../contact/contact.html">Contact</a></li>
+          <li><a class="dropdown-item" href="../portfolio/portfolio.html">Portfolio</a></li>
+          <li><a class="dropdown-item" href="../rates/rates.html">Rates</a></li>
+          <li><a class="dropdown-item" href="../index.html">Home</a></li>
+        </ul>
       </div>
+
 
       <div class="profile-pic">
         <img src="./crystal-profile-pic.jpg" />
       </div>
-      <div>
-        Two-time International Brazillian Jiu-Jitsu Gold Medalist who's fierce competitive drive is ever present in her personal and professional endeavors. Intrinsically motivated and dedicated to continuous personal and professional development. An analytical thinker who's pragmatic and logical in approach when faced with challenges but also has a deeply creative spirit that draws her toward classical music and the arts when leisure calls. Effective at multi-tasking and managing heavy work-loads as evidenced by her simultaneous pursuit of a graduate degree in Computer Science and Professional web development for her clients.
+      <div class="about-me-bio">
+        <p>Two-time International Brazillian Jiu-Jitsu Gold Medalist whose fierce competitive drive is ever present in her personal and professional endeavors. Intrinsically motivated and dedicated to continuous personal and professional development. An analytical thinker who's pragmatic and logical in approach when faced with challenges but also has a deeply creative spirit that draws her toward classical music and the arts when leisure calls. Effective at multi-tasking and managing heavy work-loads as evidenced by her simultaneous pursuit of a graduate degree in Computer Science and Professional web development for her clients.</p>
       </div>
 
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <link type="text/css" rel="stylesheet" href="main_styles.css" />
     </body>
 </html>

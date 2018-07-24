@@ -2,54 +2,66 @@
 <html>
     <head>
         <title>Rates</title>
-        <link href="rates.css" type="text/css"  rel="stylesheet" >
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link href="../style.css" type="text/css"  rel="stylesheet" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
       <h1>Rates</h1>
-      <div class="menu-options">
-        <a href="../about/about.html">About</a>
-        <a href="../contact/contact.html">Contact</a>
-        <a href="../portfolio/portfolio.html">Portfolio</a>
-        <a href="./rates.html">Rates</a>
-        <a href="../index.html">Home</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="../about/about.html">About</a></li>
+          <li><a class="dropdown-item" href="../contact/contact.html">Contact</a></li>
+          <li><a class="dropdown-item" href="../portfolio/portfolio.html">Portfolio</a></li>
+          <li><a class="dropdown-item" href="./rates.html">Rates</a></li>
+          <li><a class="dropdown-item" href="../index.html">Home</a></li>
+        </ul>
       </div>
+
 
       <div class="table-rates container">
         <div class="row th">
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-3">
             Type of Front End Development
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-3">
             Description
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-3">
             Avg Hourly Rate
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 col-sm-6 thr">
+          <div class="col-md-3 col-sm-3 thr">
             Basic Front-End
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-3">
             HTML, CSS, & CMS's like WordPress
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-3">
             $20-$25
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 col-sm-6 thr">
+          <div class="col-md-3 col-sm-3 thr">
             Intermidiate Front-End
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-3">
             Beyond basics.  JavaScript, frameworks, SASS, Bootstrap, securing WordPress site
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-3 col-sm-3">
             $30-$45
           </div>
         </div>
 
       </div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <link type="text/css" rel="stylesheet" href="main_styles.css" />
     </body>
 </html>
