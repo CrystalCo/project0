@@ -3,19 +3,28 @@
     <head>
         <title>Crystal Coding</title>
         <link href="style.css" type="text/css"  rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     </head>
     <body>
         <h1>Welcome to Crystal Coding!</h1>
-        <div class="menu-options">
-          <a href="./about.html">About</a>
-          <a href="./contact.html">Contact</a>
-          <a href="./portfolio.html">Portfolio</a>
-          <a href="./rates.html">Rates</a>
-          <a href="#section1">Section 1</a>
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Menu
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a class="dropdown-item" href="./about/about.html">About</a></li>
+            <li><a class="dropdown-item" href="./contact/contact.html">Contact</a></li>
+            <li><a href="./portfolio/portfolio.html">Portfolio</a></li>
+            <li><a href="./rates/rates.html">Rates</a></li>
+            <li><a href="#section1">Section 1</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
         </div>
-        <div class="profile-pic">
-          <img src="./crystal-profile-pic.jpg" />
-        </div>
+
+
+
         <div>
           <h2 id="section1">Section 1</h2>
           <p>This is section one of my website.</p>

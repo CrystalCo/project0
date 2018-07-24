@@ -1,0 +1,24 @@
+h1 {
+  font-family: "Merienda", cursive;
+}
+
+a {
+  font-family: "Fira Sans", sans-serif;
+}
+
+a:hover {
+  font-size: 120%;
+}
+
+div {
+  padding: 2px;
+}
+div h2 {
+  font-family: "Merienda", cursive;
+}
+div h4 {
+  background-color: yellow;
+  width: 150px;
+}
+
+/*# sourceMappingURL=portfolio.css.map */

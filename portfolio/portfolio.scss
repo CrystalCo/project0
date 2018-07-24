@@ -1,0 +1,27 @@
+$meriendaFont: 'Merienda', cursive;
+$firaSansFont: 'Fira Sans', sans-serif;
+
+h1 {
+  font-family: $meriendaFont;
+}
+
+a {
+  font-family: $firaSansFont;
+}
+
+a:hover {
+  font-size: 120%;
+}
+
+div {
+  padding: 2px;
+
+  h2 {
+    font-family: $meriendaFont;
+  }
+
+  h4 {
+    background-color: yellow;
+    width: 150px
+  }
+}
